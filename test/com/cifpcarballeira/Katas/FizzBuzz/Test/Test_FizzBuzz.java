@@ -44,4 +44,10 @@ public class Test_FizzBuzz {
         assertEquals("Fizz Buzz", resultado);
     }
 
+    @Test
+    public void test6devuelveFizzBuzz() {
+        FizzBuzz fb = new FizzBuzz();
+        String resultado = fb.getFizzBuzz(13);
+        assertEquals("Fizz", resultado);
+    }
 }
